@@ -21,7 +21,7 @@ public class application {
 //		StatusParaLocacao y = StatusParaLocacao.valueOf(i);
 //		System.out.println(y.getNum()+ " kk");
 		
-		Cliente cli = new Cliente(34, 27, "lucas alves", "42176354877", StatusParaLocacao.DISPONIVEL);
+		Cliente cli = new Cliente(34, 27, "lucas de alves", "42176354877", StatusParaLocacao.DISPONIVEL);
 		List<Cliente> clientes = new ArrayList<Cliente>();
 		
 		Bicicleta bici = new Bicicleta(9, 24, StatusParaLocacao.DISPONIVEL);
@@ -35,6 +35,8 @@ public class application {
 		
 		System.out.println(clientes.toString());
 		System.out.println(cli.getSpl());
+		
+		System.out.println("RODOU!");
 		
 	}
 
